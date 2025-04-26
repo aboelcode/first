@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: aboelcodez
+    name: aboelcode
     env: node
     buildCommand: npm install
     startCommand: node server.js

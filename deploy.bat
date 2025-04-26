@@ -11,7 +11,7 @@ git add .
 
 echo.
 echo [2/5] Committing changes...
-git commit -m "Prepare for deployment to Render.com"
+git commit -m "Deploy: Portfolio website with Node.js and local JSON storage"
 
 echo.
 echo [3/5] Switching to main branch...
@@ -35,7 +35,7 @@ echo.
 echo Website URL will be available once deployment on Render.com is complete.
 echo.
 echo Local: http://localhost:3000
-echo Website: https://aboelcodez.onrender.com
+echo Website: https://aboelcode.onrender.com
 echo.
 echo Press any key to exit...
 pause >nul
