@@ -1,11 +1,7 @@
 services:
   - type: web
-    name: fullstack-portfolio
+    name: aboelcode-portfolio
     env: node
+    plan: free
     buildCommand: npm install
-    startCommand: node server.js
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: PORT
-        value: 10000 
+    startCommand: node server.js 
