@@ -238,7 +238,7 @@ app.post('/api/contact', (req, res) => {
   }
 });
 
-// Health check endpoint for Render
+// Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'ok', uptime: process.uptime() });
 });
