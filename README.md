@@ -111,3 +111,5 @@ npm run dev
 
 - Instapay: instato@instapay
 - فودافون كاش: 01069155774
+
+تم التحديث: 2023-12-01
